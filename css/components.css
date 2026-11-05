@@ -1,0 +1,46 @@
+.pub-year {
+  margin-top: 2.5rem;
+  color: var(--muted);
+  font-size: 1.1rem;
+}
+
+.publication-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.publication-list li {
+  margin-bottom: 1.4rem;
+}
+
+.pub-title {
+  margin-bottom: 0.15rem;
+  font-weight: 600;
+}
+
+.pub-title a {
+  color: var(--text);
+}
+
+.pub-title a:hover {
+  color: var(--link);
+  text-decoration: underline;
+}
+
+.pub-authors {
+  margin-bottom: 0.1rem;
+  font-size: 0.95rem;
+}
+
+.pub-meta {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.pub-note {
+  margin: 0.15rem 0 0;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
