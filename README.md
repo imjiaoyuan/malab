@@ -1,13 +1,12 @@
 # Ma Lab website
 
-A static academic website for the Ma Lab (Plant Evolutionary Genomics) at the College of Life Sciences, Sichuan University. The site uses plain HTML, CSS and JavaScript, with no build step, and can be hosted on GitHub Pages or any static file server.
+A static academic website for the Ma Lab (Plant Evolution and Functional Genomics Team) at the College of Life Sciences, Sichuan University. The site uses plain HTML, CSS and JavaScript, with no build step, and can be hosted on GitHub Pages or any static file server.
 
 ## Structure
 
 ```
 .
 ├── index.html
-├── research.html
 ├── members.html
 ├── publications.html
 ├── databases.html
@@ -23,7 +22,7 @@ A static academic website for the Ma Lab (Plant Evolutionary Genomics) at the Co
     └── publications.js
 ```
 
-`css/base.css` holds the reset, typography and base elements. `css/layout.css` holds the masthead, sidebar layout, page grid and footer. `css/components.css` holds the publication list styles. `js/main.js` sets the active navigation item and the footer year. `js/publications-data.js` stores the publication records and `js/publications.js` renders them.
+`css/base.css` holds the reset, typography and base elements. `css/layout.css` holds the masthead, page layout, home profile panel and footer. `css/components.css` holds the publication list styles. `js/main.js` sets the active navigation item and the footer year. `js/publications-data.js` stores the publication records and `js/publications.js` renders them.
 
 ## Local preview
 
@@ -63,9 +62,9 @@ The databases page is plain text. Add resource names, descriptions, and links un
 
 ## Site-wide changes
 
-The masthead, sidebar and footer are repeated in each HTML file. When adding a page or changing a link, update all six pages. The active navigation item is derived from the `data-page` attribute on `<body>` and the `data-nav` attributes on the links, so no manual active class is needed.
+The masthead and footer are repeated in each HTML file. When adding a page or changing a link, update all five pages. The profile panel and research directions appear only on the home page; other pages use a single-column layout. The active navigation item is derived from the `data-page` attribute on `<body>` and the `data-nav` attributes on the links, so no manual active class is needed.
 
-The email address and address appear in the sidebar and on the contact page. Replace them in all locations if they change.
+The email address and location appear in the home profile panel and on the contact page. Replace them in all locations if they change.
 
 ## Deployment
 
