@@ -22,7 +22,7 @@ A static academic website for the Ma Lab (Plant Evolution and Functional Genomic
     └── publications.js
 ```
 
-`css/base.css` holds the reset, typography and base elements. `css/layout.css` holds the masthead, page layout, home profile panel and footer. `css/components.css` holds the publication list styles. `js/main.js` sets the active navigation item and the footer year. `js/publications-data.js` stores the publication records and `js/publications.js` renders them.
+`css/base.css` holds the reset, typography and base elements. `css/layout.css` holds the masthead, page layout, home profile panel and footer. `css/components.css` holds the publication list and member list styles. `js/main.js` sets the active navigation item and the footer year. `js/publications-data.js` stores the publication records and `js/publications.js` renders them.
 
 ## Local preview
 
@@ -56,9 +56,9 @@ window.LAB_PUBLICATIONS = [
 
 ## Editing members and databases
 
-The members page has a short PI section and a placeholder for the rest of the team. Add team members as paragraphs or lists under the `Lab members` heading in `members.html`.
+The members page lists the principal investigator, collaborating faculty, and lab members. Add or update names in the `Collaborating faculty` and `Lab members` sections of `members.html`.
 
-The databases page is plain text. Add resource names, descriptions, and links under the `Available resources` heading in `databases.html`.
+The databases page lists lab resources. Add resource names, descriptions, and links under the `Available resources` heading in `databases.html`.
 
 ## Site-wide changes
 
